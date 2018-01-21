@@ -18,44 +18,38 @@ body{
     /* text-shadow: 1em; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/* Text Stuff */
-h2{
-    color: rgb(235, 64, 64);
-    text-decoration: underline;
-}
-h2:hover{
-    color: darkred;
+div.container{
+    width: 100%;
+    border: 2px solid gray;
 }
 
-p{
-    text-align: justify;
-    width: 700px;
-}
-
-/* Image stuff */
-img{
-    border: 5px solid rgb(245, 169, 6);
-    border-radius: 10px;
-}
-
-/* SECTIONS */
+/************************* SECTIONS ****************************/
 header{
     /* background-color: #01baef; */
     text-align: center;
-    font-size: 1em;
+    font-size: 2em;
     margin: 0em;
     padding: 1em;
     background-color:#3D5A80;
     /* border: medium dashed; */
 }
 
-section{
-    background-color: #98C1D9;
+footer{
     text-align: center;
-    border: medium dashed;
+    font-size: 1em;
+    margin: 0em;
+    padding: 1em;
+    background-color:#3D5A80;
+    clear:both;
+}
+
+section{
+    /* background-color: #98C1D9; */
+    align-content: center;
+    text-align: center;
+    border: medium dashed white;
     padding: 1%;
-    /* border-radius: 0.5em; */
+    border-radius: 0.5em;
     /* border-radius: 0.20em; */
 }
 
@@ -63,23 +57,28 @@ section{
     background-color: #EE6C4D;
 }
 
-section.left_section{
+aside{
+    color: #293241;
     float: left;
-    align-content: left;
     font-size: 1em;
-    width: 47%;
+    margin: 1em;
+    width: 25%;
+    display:block;
     height: 40em;
+    border: medium dashed white;
 }
 
 section.right_section{
-    float: right;
+    color: #FBFBFF;
+    float: left;
     align-content: left;
     font-size: 1em;
-    width: 47%;
-    height: 10em;
+    width: 45%;
+    margin: 1em;
+    height: 100%;
 }
 
-/* TOOLBAR STUFF */
+/************************ TOOLBAR STUFF ************************/
 nav ul{
     list-style-type: none;
     margin: 0em;
@@ -107,10 +106,68 @@ nav li a{
 
 nav li a:hover{
     /* Change the link color to red on hover */
-    background-color: #394253;
+    background-color: #404e66;
 }
 
+/************************** Text Stuff **************************/
 
+h1.title{
+    color: #293241
+}
+h2{
+    color: rgb(235, 64, 64);
+    text-decoration: underline;
+}
+h2:hover{
+    color: darkred;
+}
+
+p.header{
+    margin: 0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+}
+
+p.content{
+    text-align: center;
+    font-size: 1.1em;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1em;
+    /* border: medium dashed;  */
+}
+
+/* Image stuff */
+img{
+    border: 0.5em solid #3D5A80;
+}
+#boromir{
+    border-radius: 15em;
+    height: auto;
+    max-width: 40%;
+}
+
+.button {
+    background-color: rgb(81, 167, 216); /* Green */
+    color: white;
+    padding: 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    margin: 1em;
+    cursor: pointer;
+    clear:both;
+    /* float: left; */
+}
+.button:hover{
+    background-color: #EE6C4D; /* Green */
+}
+.button5 {
+    height: 15em;
+    width: 15em;
+    border: 10px black;
+    border-radius: 50%;}
 
 /*Button CSS*/
 /* .button{
