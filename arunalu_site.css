@@ -1,0 +1,104 @@
+/* NOTE: Pick a colour scheme using: https://coolors.co/a30b37-bd6b73-bbb6df-c6c8ee-fcfcff */
+/* Use "em" instead of px. em = size relative to font of the element. */
+/* % - specify width and heights as percent, ex width 50% */
+
+/* COLOUR PALETTE
+Red: #A10702
+Dark Blue: #040F16
+White-ish: #FBFBFF
+Light Blue: #01baef
+Imperial Blue: #0B4F6C 
+*/ 
+
+
+/* Body stuff */
+body{
+    background-color: #040F16;
+    color: rgb(230, 230, 230);
+    text-shadow: em;
+}
+
+h1{
+    color: #FBFBFF;
+}
+
+/* Text Stuff */
+h2{
+    color: rgb(235, 64, 64);
+    text-decoration: underline;
+}
+h2:hover{
+    color: darkred;
+}
+
+p{
+    text-align: justify;
+    width: 700px;
+}
+
+/* Image stuff */
+img{
+    border: 5px solid rgb(245, 169, 6);
+    border-radius: 10px;
+}
+
+/* SECTIONS */
+section{
+    background-color: #01baef;
+    text-align: center;
+}
+
+section.header{
+    /* background-color: #01baef; */
+    text-align: center;
+    font-size: 1.3em;
+    margin: 0em;
+    padding: 0em;
+}
+
+/* TOOLBAR STUFF */
+ul.toolbar {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
+    background-color: #0B4F6C;
+}
+
+li.toolbar {
+    float: left;
+}
+
+li a.toolbar {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+#toolbar_active{
+    background-color:#A10702;
+}
+
+li a.toolbar:hover {
+    /* Change the link color to red on hover */
+    background-color: rgb(8, 57, 78);
+}
+
+
+
+/*Button CSS*/
+/* .button{
+    background-color: red;
+    width: 200px;
+    border: 1px solid darkred;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.button:hover{
+    color:white;
+} */
