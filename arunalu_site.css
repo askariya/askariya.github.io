@@ -44,7 +44,7 @@ header{
     font-size: 2em;
     margin: 0em;
     padding: 1em;
-    background-color:#3D5A80;
+    background-color:#8F8073;
     /* border: medium dashed; */
 }
 
@@ -53,7 +53,7 @@ footer{
     font-size: 1em;
     margin: 0em;
     padding: 1em;
-    background-color:#3D5A80;
+    background-color:#8F8073;
     clear:both;
 }
 
@@ -96,7 +96,8 @@ section.right_section.project{
     float: right;
     width: 75%;
     border-radius: 0em;
-    background-color: #EE6C4D;
+    color: black;
+    background-color: #EAE6E5;
     /* margin: 1em 1em 1em 0em; */
     margin: 0em;
 }
@@ -107,7 +108,7 @@ aside.project{
     margin: 0em;
     width: 25%;
     border: 0.07em solid black;
-    background-color: #293241;
+    background-color: #12130F;
 }
 /************************ PROJECT SIDEBAR STUFF ************************/
 ul.sidebar{
@@ -143,7 +144,7 @@ ul.sidebar li a:hover{
 }
 
 #sidebar_active{
-    background-color: #A10702;
+    background-color: #8FCB9B;
 }
 
 h3.sidebar{
@@ -164,7 +165,7 @@ nav ul{
     margin: 0em;
     padding: 0em;
     overflow: hidden;
-    background-color: #293241;
+    background-color: #12130F;
 }
 
 nav li{
@@ -181,7 +182,7 @@ nav li a{
 }
 
 #nav_active{
-    background-color:#EE6C4D;
+    background-color:#8FCB9B;
 }
 
 nav li a:hover{
