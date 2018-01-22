@@ -8,7 +8,14 @@ Dark Blue: #040F16
 White-ish: #FBFBFF
 Light Blue: #01baef
 Imperial Blue: #0B4F6C 
+Background, light greyish: #F1EDEE
 */ 
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
 
 
 /* Body stuff */
@@ -17,10 +24,17 @@ body{
     color: rgb(230, 230, 230);
     /* text-shadow: 1em; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height:100%;
 }
 div.container{
     width: 100%;
     border: 2px solid gray;
+    height:100%;
+}
+
+div.content{
+    /* border: 2px solid red; */
+    height: 50em;
 }
 
 /************************* SECTIONS ****************************/
@@ -47,7 +61,7 @@ section{
     /* background-color: #98C1D9; */
     align-content: center;
     text-align: center;
-    border: medium dashed white;
+    /* border: medium dashed black; */
     padding: 1%;
     border-radius: 0.5em;
     /* border-radius: 0.20em; */
@@ -55,17 +69,6 @@ section{
 
 #second_section{
     background-color: #EE6C4D;
-}
-
-aside{
-    color: #293241;
-    float: left;
-    font-size: 1em;
-    margin: 1em;
-    width: 25%;
-    display:block;
-    height: 40em;
-    border: medium dashed white;
 }
 
 section.right_section{
@@ -76,6 +79,70 @@ section.right_section{
     width: 45%;
     margin: 1em;
     height: 100%;
+}
+
+aside{
+    color: #293241;
+    float: left;
+    font-size: 1em;
+    margin: 1em;
+    width: 25%;
+    display:block;
+    height: 100%;
+    /* border: medium dashed black; */
+}
+
+section.right_section.project{
+    float: right;
+    width: 75%;
+    border-radius: 0em;
+    background-color: #EE6C4D;
+    /* margin: 1em 1em 1em 0em; */
+    margin: 0em;
+}
+
+aside.project{
+    float: left;
+    /* margin: 1em 0em 1em 1em; */
+    margin: 0em;
+    width: 25%;
+    border: 0.07em solid black;
+    background-color: #0B4F6C;
+}
+/************************ PROJECT SIDEBAR STUFF ************************/
+ul.sidebar{
+    color: white;
+    padding:0em;
+    margin: 0em;
+    list-style-type: none;
+    width: 100%;
+    /* background-color: white; */
+    height: 100%;
+}
+
+ul.sidebar li{
+    width: 100%;
+    float: center;
+}
+
+ul.sidebar li a:hover{
+    background-color:rgb(59, 106, 126)
+}
+
+ul.sidebar li a{
+    display: block;
+    padding: 2em 2em;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    /* background: plum; */
+    border-bottom: 0.07em solid black;
+    /* border-left: 0.2em solid black; */
+}
+
+#sidebar_active{
+    background-color: #A10702;
 }
 
 /************************ TOOLBAR STUFF ************************/
@@ -134,7 +201,7 @@ p.content{
     width: 80%;
     margin: auto;
     margin-bottom: 1em;
-    /* border: medium dashed;  */
+    border: medium dashed; 
 }
 
 /* Image stuff */
@@ -145,6 +212,13 @@ img{
     border-radius: 15em;
     height: auto;
     max-width: 40%;
+}
+
+#uCook_img{
+    float: right;
+    /* border-radius: 15em; */
+    height: auto;
+    max-width: 25%;
 }
 
 .button {
