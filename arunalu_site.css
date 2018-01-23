@@ -136,6 +136,17 @@ section.right_section.about{
     margin: 0em;
 }
 
+section.right_section.home{
+    float: right;
+    width: 100%;
+    border-radius: 0em;
+    color: black;
+    background-color: #EAE6E5;
+    /* margin: 1em 1em 1em 0em; */
+    margin: 0em;
+    height: 40em;
+}
+
 /************************ PROJECT SIDEBAR STUFF ************************/
 ul.sidebar{
     color: white;
@@ -289,6 +300,17 @@ p.header{
     letter-spacing: 1em;
 }
 
+section.home p.content{
+    text-align: center;
+    float: center;
+    font-size: 1em;
+    width: 60%;
+    margin: auto;
+    /* margin-left: 0em; */
+    margin-bottom: 1em;
+    border: medium dashed; 
+}
+
 section.project p.content{
     text-align: center;
     font-size: 1em;
@@ -323,10 +345,10 @@ img{
     border: 0.5em solid #3D5A80;
     margin-bottom: 1em;
 }
-#boromir{
+#intro_pic{
     border-radius: 15em;
     height: auto;
-    max-width: 40%;
+    max-width: 20%;
 }
 
 #uCook_img{
