@@ -82,6 +82,7 @@ section.right_section{
     width: 45%;
     margin: 1em;
     height: 100%;
+    overflow: scroll;
 }
 
 aside{
@@ -145,6 +146,15 @@ section.right_section.home{
     /* margin: 1em 1em 1em 0em; */
     margin: 0em;
     height: 40em;
+}
+
+div.about_primer{
+    float: center;
+    margin: auto;
+    width: 50%;
+    height: 35%;
+    /* height: 50%; */
+    /* border: 1em solid black; */
 }
 
 /************************ PROJECT SIDEBAR STUFF ************************/
@@ -308,7 +318,20 @@ section.home p.content{
     margin: auto;
     /* margin-left: 0em; */
     margin-bottom: 1em;
-    border: medium dashed; 
+    /* border: medium dashed;  */
+}
+
+section.home ul{
+    float: center;
+    text-align: left;
+    margin: auto;
+    margin-left: 30.9em;
+    width: 40%;
+    /* border: 1em solid black; */
+}
+section.home ul li{
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 section.project p.content{
@@ -324,17 +347,17 @@ section.project p.content{
 section.contact p.content{
     text-align: left;
     font-size: 1em;
-    width: 100%;
+    width: 20%;
     margin-left: 20em;
     margin-bottom: 1em;
-    /* border: medium dashed;  */
+    border: medium dashed; 
 }
 
 section.about p.content{
     text-align: left;
     float: left;
     font-size: 1em;
-    width: 30%;
+    width: 60%;
     margin-left: 0em;
     margin-bottom: 1em;
     /* border: medium dashed;  */
@@ -364,10 +387,10 @@ img{
     float: left;
     /* border-radius: 15em; */
     height: auto;
-    max-width: 15%;
+    max-width: 33%;
     margin-right: 2em;
     /* margin-left: 5em; */
-    border: 0.2em solid #292F36; ;
+    border: 0.2em solid #292F36;
 }
 
 #contact_img{
