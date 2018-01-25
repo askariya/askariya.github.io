@@ -65,7 +65,7 @@ header{
     background-color: #000000;
     background-image: url(Images/header_background.jpg); 
     background-position: 50% 50%;
-    background-size: 140%;
+    background-size: 142%;
     /* background-size: 50em; */
     background-repeat: no-repeat;
  }
@@ -83,7 +83,7 @@ footer{
     background-color: #000000;
     background-image: url(Images/header_background.jpg); 
     background-position: 50% 50%;
-    background-size: 138%;
+    background-size: 150%;
 
     /* background-size: 50em; */
     background-repeat: no-repeat;
@@ -111,7 +111,6 @@ section.right_section{
     width: 45%;
     margin: 1em;
     height: 100%;
-    overflow: scroll;
 }
 
 aside{
@@ -134,6 +133,7 @@ section.right_section.project{
     background-color: #EAE6E5;
     /* margin: 1em 1em 1em 0em; */
     margin: 0em;
+    overflow: scroll;
 }
 
 aside.project{
@@ -412,6 +412,15 @@ img{
     border: None;
 }
 
+#basa_img{
+    float: center;
+    /* border-radius: 15em; */
+    height: auto;
+    max-width: 55%;
+    margin-right: 2em;
+    border: None;
+}
+
 #arunalu_img{
     float: left;
     /* border-radius: 15em; */
@@ -421,6 +430,7 @@ img{
     /* margin-left: 5em; */
     border: 0.2em solid #292F36;
 }
+
 
 #contact_img{
     float: left;
