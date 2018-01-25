@@ -37,19 +37,28 @@ div.container{
 
 div.content{
     /* border: 2px solid red; */
-    height: 50em;
+    height: 48em;
 }
 
 /************************* SECTIONS ****************************/
 header{
     /* background-color: #01baef; */
     text-align: center;
-    font-size: 2em;
+    font-size: 1.3em;
     margin: 0em;
-    padding: 1em;
+    padding: 2.5em;
     background-color:#D1603D;
     /* border: medium dashed; */
 }
+
+.header-image{
+    background-color: #000000;
+    background-image: url(Images/header_background.jpg); 
+    background-position: 50% 50%;
+    background-size: 140%;
+    /* background-size: 50em; */
+    background-repeat: no-repeat;
+ }
 
 footer{
     text-align: center;
@@ -59,6 +68,16 @@ footer{
     background-color:#D1603D;
     clear:both;
 }
+
+.footer-image{
+    background-color: #000000;
+    background-image: url(Images/header_background.jpg); 
+    background-position: 50% 50%;
+    background-size: 138%;
+
+    /* background-size: 50em; */
+    background-repeat: no-repeat;
+ }
 
 section{
     /* background-color: #98C1D9; */
@@ -145,7 +164,7 @@ section.right_section.home{
     background-color: #EAE6E5;
     /* margin: 1em 1em 1em 0em; */
     margin: 0em;
-    height: 40em;
+    height: 100%;
 }
 
 div.about_primer{
@@ -311,10 +330,10 @@ p.header{
 }
 
 section.home p.content{
-    text-align: center;
+    text-align: left;
     float: center;
     font-size: 1em;
-    width: 60%;
+    width: 37%;
     margin: auto;
     /* margin-left: 0em; */
     margin-bottom: 1em;
@@ -325,7 +344,7 @@ section.home ul{
     float: center;
     text-align: left;
     margin: auto;
-    margin-left: 30.9em;
+    /* margin-left: 30.9em; */
     width: 40%;
     /* border: 1em solid black; */
 }
@@ -350,7 +369,7 @@ section.contact p.content{
     width: 20%;
     margin-left: 20em;
     margin-bottom: 1em;
-    border: medium dashed; 
+    /* border: medium dashed;  */
 }
 
 section.about p.content{
@@ -387,7 +406,7 @@ img{
     float: left;
     /* border-radius: 15em; */
     height: auto;
-    max-width: 33%;
+    max-width: 35%;
     margin-right: 2em;
     /* margin-left: 5em; */
     border: 0.2em solid #292F36;
