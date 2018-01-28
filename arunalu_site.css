@@ -16,13 +16,6 @@ Background, light greyish: #F1EDEE
     -webkit-box-sizing: border-box; 
      box-sizing: border-box; 
 }
-/* div.zoomed { 
-    zoom: 3; 
-    transform: none;
-    transform-origin: none;
-    -moz-transform: scale(3); 
-    -moz-transform-origin: 0 0;
-}  */
 
 /* Body stuff */
 body{
@@ -35,7 +28,7 @@ body{
     margin: 0em;
     /* transform: scale(1.0); */
     transform-origin: 0 0;
-    font-size: 71.6%;
+    /* font-size: 71.6%; */
 }
 div.container{
     width: 100%;
@@ -230,7 +223,7 @@ h3.sidebar{
     text-align: center;
     letter-spacing: 0.10em;
     border: 0.01em solid black;
-    border-bottom: 0.6em solid black;
+    border-bottom: 0.6em solid rgb(34, 32, 32);
     background-color: #293241;
 }
 
@@ -428,7 +421,7 @@ img{
     max-width: 35%;
     margin-right: 2em;
     /* margin-left: 5em; */
-    border: 0.2em solid #292F36;
+    border: 0.3em solid #292F36;
 }
 
 
