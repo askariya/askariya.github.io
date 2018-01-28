@@ -32,7 +32,7 @@ body{
 }
 div.container{
     width: 100%;
-    border: 0.2em solid gray;
+    /* border: 0.2em solid gray; */
     height:100%;
     margin: 0em;
     /* background-color: green; */
@@ -104,6 +104,7 @@ section.right_section{
     width: 45%;
     margin: 1em;
     height: 100%;
+    background-color:white;
 }
 
 aside{
@@ -123,7 +124,6 @@ section.right_section.project{
     text-align: center;
     border-radius: 0em;
     color: black;
-    background-color: #EAE6E5;
     /* margin: 1em 1em 1em 0em; */
     margin: 0em;
     overflow: scroll;
@@ -144,7 +144,6 @@ section.right_section.contact{
     width: 100%;
     border-radius: 0em;
     color: black;
-    background-color: #EAE6E5;
     /* margin: 1em 1em 1em 0em; */
     margin: 0em;
 }
@@ -154,7 +153,6 @@ section.right_section.about{
     width: 100%;
     border-radius: 0em;
     color: black;
-    background-color: #EAE6E5;
     /* margin: 1em 1em 1em 0em; */
     margin: 0em;
 }
@@ -164,7 +162,6 @@ section.right_section.home{
     width: 100%;
     border-radius: 0em;
     color: black;
-    background-color: #EAE6E5;
     /* margin: 1em 1em 1em 0em; */
     margin: 0em;
     height: 100%;
